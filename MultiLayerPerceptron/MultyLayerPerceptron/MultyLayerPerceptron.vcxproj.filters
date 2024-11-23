@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main-project">
+      <UniqueIdentifier>{93858bce-a792-4c14-9c15-3444f8c52a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01-Interfaces">
+      <UniqueIdentifier>{0d1a680e-4a1c-4a56-b871-448338d1e1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02-Dense-Layer">
+      <UniqueIdentifier>{229c7f27-99d6-4a15-8a9a-60103a6888ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-Activation-Function">
+      <UniqueIdentifier>{4dbc64da-e58e-423f-a007-f29f714bc73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05-mlp">
+      <UniqueIdentifier>{c8f40fe5-17f8-487c-8767-43c6aac5dd99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04-Loss-Function">
+      <UniqueIdentifier>{f4572fc5-3d13-4843-8e5f-4d8d06d9b0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06-Managers">
+      <UniqueIdentifier>{d89e858a-219b-48f1-a3be-562573b390cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07-Builder">
+      <UniqueIdentifier>{9f5bdd40-31e5-4952-a5ce-c04aa63a5a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08-Optimizer">
+      <UniqueIdentifier>{d8df0094-9391-4be3-8a8a-7891e1348bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-Activation-Function\Sigmoid">
+      <UniqueIdentifier>{858d798f-a1aa-44c2-b297-b8c8ff68495d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-Activation-Function\ReLU">
+      <UniqueIdentifier>{550b9a36-8a7f-4922-a652-4fe6a20d8266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-Activation-Function\Tanh">
+      <UniqueIdentifier>{e655bbe2-9a73-4912-bd0a-f55c15ac7d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03-Activation-Function\Softmax">
+      <UniqueIdentifier>{0b83817d-b54d-4d9d-80d8-828b9cb3d3dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08-Optimizer\Dropout">
+      <UniqueIdentifier>{bddbe503-0540-4970-85e7-cd2389e9a341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08-Optimizer\BatchNorm">
+      <UniqueIdentifier>{40e1e5ec-b433-4e01-83f8-a794c41a84b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main-project\main.cpp">
+      <Filter>main-project</Filter>
+    </ClCompile>
+    <ClCompile Include="basic-includes.h" />
+    <ClCompile Include="02-Dense-Layer\DenseLayer.cpp">
+      <Filter>02-Dense-Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="05-Loss-Function\LossFunctions.cpp">
+      <Filter>04-Loss-Function</Filter>
+    </ClCompile>
+    <ClCompile Include="04-MLP\MLP.cpp">
+      <Filter>05-mlp</Filter>
+    </ClCompile>
+    <ClCompile Include="06-Managers\DataManager.cpp">
+      <Filter>06-Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="06-Managers\LayerManager.h">
+      <Filter>06-Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="06-Managers\LayerManager.cpp">
+      <Filter>06-Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="main-project\DataLoader.cpp">
+      <Filter>main-project</Filter>
+    </ClCompile>
+    <ClCompile Include="07-Builder\MLPbuilder.cpp">
+      <Filter>07-Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="03-Activation-Function\Sigmoid.cpp">
+      <Filter>03-Activation-Function\Sigmoid</Filter>
+    </ClCompile>
+    <ClCompile Include="03-Activation-Function\ReLU.cpp">
+      <Filter>03-Activation-Function\ReLU</Filter>
+    </ClCompile>
+    <ClCompile Include="03-Activation-Function\Tanh.cpp">
+      <Filter>03-Activation-Function\Tanh</Filter>
+    </ClCompile>
+    <ClCompile Include="03-Activation-Function\Softmax.cpp">
+      <Filter>03-Activation-Function\Softmax</Filter>
+    </ClCompile>
+    <ClCompile Include="08-Optimizers\DropOut.cpp">
+      <Filter>08-Optimizer\Dropout</Filter>
+    </ClCompile>
+    <ClCompile Include="08-Optimizers\BatchNorm.cpp">
+      <Filter>08-Optimizer\BatchNorm</Filter>
+    </ClCompile>
+    <ClCompile Include="main-project\comparations.cpp">
+      <Filter>main-project</Filter>
+    </ClCompile>
+    <ClCompile Include="main-project\GnuplotWrapper.cpp">
+      <Filter>main-project</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01-interfaces\ILayer.h">
+      <Filter>01-Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="01-interfaces\IActivationFunction.h">
+      <Filter>01-Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="01-interfaces\IOptimizationLayer.h">
+      <Filter>01-Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="02-Dense-Layer\DenseLayer.h">
+      <Filter>02-Dense-Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="03-Activation-Function\ActivationFunction.h">
+      <Filter>03-Activation-Function</Filter>
+    </ClInclude>
+    <ClInclude Include="01-interfaces\ILossFunction.h">
+      <Filter>01-Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="04-MLP\MLP.h">
+      <Filter>05-mlp</Filter>
+    </ClInclude>
+    <ClInclude Include="05-Loss-Function\LossFunctions.h">
+      <Filter>04-Loss-Function</Filter>
+    </ClInclude>
+    <ClInclude Include="06-Managers\DataManager.h">
+      <Filter>06-Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="main-project\DataLoader.h">
+      <Filter>main-project</Filter>
+    </ClInclude>
+    <ClInclude Include="07-Builder\MLPbuilder.h">
+      <Filter>07-Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="08-Optimizers\Optimizers.h">
+      <Filter>08-Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="03-Activation-Function\Sigmoid.h">
+      <Filter>03-Activation-Function\Sigmoid</Filter>
+    </ClInclude>
+    <ClInclude Include="03-Activation-Function\ReLU.h">
+      <Filter>03-Activation-Function\ReLU</Filter>
+    </ClInclude>
+    <ClInclude Include="03-Activation-Function\Tanh.h">
+      <Filter>03-Activation-Function\Tanh</Filter>
+    </ClInclude>
+    <ClInclude Include="03-Activation-Function\Softmax.h">
+      <Filter>03-Activation-Function\Softmax</Filter>
+    </ClInclude>
+    <ClInclude Include="08-Optimizers\DropOut.h">
+      <Filter>08-Optimizer\Dropout</Filter>
+    </ClInclude>
+    <ClInclude Include="08-Optimizers\BatchNorm.h">
+      <Filter>08-Optimizer\BatchNorm</Filter>
+    </ClInclude>
+    <ClInclude Include="main-project\comparations.h">
+      <Filter>main-project</Filter>
+    </ClInclude>
+    <ClInclude Include="main-project\GnuplotWrapper.h">
+      <Filter>main-project</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
